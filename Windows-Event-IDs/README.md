@@ -19,3 +19,21 @@ SOC analysts monitor this event to detect:
 
 ### Example Detection
 Multiple failed logins from same IP may indicate brute force attack.
+
+# Windows Event IDs
+
+## Event Viewer Security Logs
+
+![Event Viewer](event-viewer.png)
+
+---
+
+## Filter Current Log - Event ID 4625
+
+![Event Filter](event-filter.png)
+
+---
+
+## Failed Login Event - Event ID 4625
+
+![Failed Login](event-login-failed.png)
